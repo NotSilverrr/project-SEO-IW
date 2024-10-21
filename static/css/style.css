@@ -4,7 +4,37 @@
 
 */
 
+@font-face {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Kanit-Regular.woff2') format('woff2');
+}
+  
+@font-face {
+font-family: 'Kanit';
+font-style: italic;
+font-weight: 400;
+src: url('fonts/Kanit-Italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+src: url('fonts/Kanit-Bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Kanit';
+font-style: italic;
+font-weight: 700;
+src: url('fonts/Kanit-BoldItalic.woff2') format('woff2');
+}
+  
+
 body{
+    font-family: 'Kanit', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -20,23 +50,29 @@ header{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: rebeccapurple;
+    align-items: center;
+    background-color: lightgray;
+    height: 7rem;
 }
 
 .header_logo{
-    width: 10rem;
+    width: 9rem;
 }
 
 .header_list{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
+    gap: 3rem;
     list-style-type: none;
+    margin-right: 3rem;
 }
 
 .header_list li{
-    margin: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
+
 /*
 
     FOOTER
