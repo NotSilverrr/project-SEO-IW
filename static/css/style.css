@@ -39,6 +39,10 @@ body{
     padding: 0px;
 }
 
+main{
+    height: 100vh;
+}
+
 /*
 
     HEADER
@@ -78,3 +82,13 @@ header{
     FOOTER
 
 */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    height: 5rem;
+}
