@@ -3,6 +3,6 @@
     <ul class="header_list">
         <li>Magasin</li>
         <li>Notre histoire</li>
-        <li>Q & A</li>
+        <li><a href="./../faq.php">Faq</a></li>
     </ul>
 </header>
