@@ -1,10 +1,42 @@
 /*
 
+    BODY
+
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+
     HEADER
 
 */
 
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
 
+.header_logo{
+    width: 10rem;
+}
+
+.header_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    list-style-type: none;
+}
+
+.header_list li{
+    margin: 5px;
+}
 /*
 
     FOOTER
