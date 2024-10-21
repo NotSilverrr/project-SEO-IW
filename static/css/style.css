@@ -8,30 +8,22 @@
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
-    src: url('fonts/Kanit-Regular.woff2') format('woff2');
+    src: url('../font/Kanit-Regular.woff2') format('woff2');
 }
   
 @font-face {
 font-family: 'Kanit';
 font-style: italic;
 font-weight: 400;
-src: url('fonts/Kanit-Italic.woff2') format('woff2');
+src: url('../font/Kanit-Italic.woff2') format('woff2');
 }
 
 @font-face {
 font-family: 'Kanit';
 font-style: normal;
 font-weight: 700;
-src: url('fonts/Kanit-Bold.woff2') format('woff2');
+src: url('../font/Kanit-Bold.woff2') format('woff2');
 }
-
-@font-face {
-font-family: 'Kanit';
-font-style: italic;
-font-weight: 700;
-src: url('fonts/Kanit-BoldItalic.woff2') format('woff2');
-}
-  
 
 body{
     font-family: 'Kanit', sans-serif;
