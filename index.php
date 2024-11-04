@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style.css">
-    <title>GigaBoulet - Vente de Boulets</title>
-</head>
+<?php 
+$title = "Gigaboulet - Le site de vente de cailloux n°1 en France";
+$description = "Gigaboulet propose toutes sortes de services et de produits en lien avec les cailloux. Si vous en êtes passionné, vous trouverez forcément votre bonheur ici !";
+include "includes/head.php"
+?>
 <body>
     <?php include("includes/header.php");?>
-    <main>
+    <main class="container">
         <h1>Trouves le GigaBoulet qui te correspond</h1>
         <div class="search-bar">
             <input type="text" placeholder="Rechercher des boulets...">
