@@ -1,4 +1,7 @@
-<?php include_once 'includes/head.php'?>
+<?php
+$title = "Gigaboulet - FAQ"
+$description = "Toutes les réponses a vos questions sur nos Gigaboulet"
+include_once 'includes/head.php'?>
 <body>
 <?php include_once 'includes/header.php'?>
     <main class="container">
