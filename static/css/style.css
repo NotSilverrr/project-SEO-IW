@@ -6,24 +6,29 @@
 
 @font-face {
     font-family: 'Kanit';
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
-    src: url('../font/Kanit-Regular.woff2') format('woff2');
-}
-  
-@font-face {
-font-family: 'Kanit';
-font-style: italic;
-font-weight: 400;
-src: url('../font/Kanit-Italic.woff2') format('woff2');
+    src: url('/static/font/Kanit-Italic.woff2') format('woff2');
 }
 
 @font-face {
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-src: url('../font/Kanit-Bold.woff2') format('woff2');
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/static/font/Kanit-Bold.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 700;
+    src: url('/static/font/Kanit-BoldItalic.woff2') format('woff2');
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+  
 
 body{
     font-family: 'Kanit', sans-serif;
@@ -32,7 +37,21 @@ body{
 }
 
 main{
-    min-height: 100vh;
+    min-height: calc(100vh - 112px - 80px);
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /*
@@ -43,16 +62,36 @@ main{
 
 header{
     display: flex;
+    align-items: center;
+    
+    background-color: lightgray;
+    height: 7rem;    
+}
+
+header .container {
+    width: 100%;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
-    height: 7rem;
+}
+
+header nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    transition: 150ms ease-in-out;
+}
+
+header nav a:hover::after {
+    width: 100%;
 }
 
 .header_logo{
-    width: 9rem;
+    height: 5rem;
 }
 
 .header_list{
@@ -85,7 +124,3 @@ footer{
     height: 5rem;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
