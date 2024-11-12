@@ -4,6 +4,7 @@ include_once 'includes/head.php';?>
 <body>
 <?php include_once 'includes/header.php'?>
     <main class="container">
+        <h1>L'histoire de <strong>Gigaboulet</strong> – La création de l'enseigne légendaire <strong>Gigaboulet</strong></h1>
         <div class="container story-p">
             Tout a commencé avec une passion simple mais puissante : les cailloux. Ceux que l'on trouve sur les plages, dans les montagnes, ou même au bord des chemins. Ces pierres qui racontent des histoires millénaires, forgées par la nature, polies par le temps, chacune avec sa forme unique et ses couleurs variées.
         </div>

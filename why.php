@@ -4,6 +4,7 @@ include_once 'includes/head.php';?>
 <body>
 <?php include_once 'includes/header.php'?>
     <main class="container">
+    <h1>Pourquoi <strong>Gigaboulet</strong> ?</h1>
     <div class="story-p">
         <p>Chez <strong>Gigaboulet</strong>, nous croyons que les pierres ne sont pas seulement des éléments de la nature, mais aussi des sources de bien-être, d'inspiration et de force. Qu'il s'agisse de décorer un espace, de méditer pour un esprit apaisé, ou de créer des œuvres artistiques, les cailloux que nous proposons sont là pour embellir votre quotidien. Avec <strong>Gigaboulet</strong>, chaque pierre devient une solution pour alléger les tracas de la vie moderne et retrouver un lien avec la nature. Notre mission est simple : vous offrir les meilleurs cailloux pour répondre à tous vos besoins, grands et petits.</p>
     </div>
@@ -31,6 +32,13 @@ include_once 'includes/head.php';?>
                 </tr>
             </tbody>
         </table>
+        <h2>Papy Cailloux, un pionier de <strong>Gigaboulet</strong></h2>
+
+        <div class="papy-cailloux-video-div">
+            <iframe src="https://media-hub.ina.fr/video/NhIbs08+9v/aHGEtFuJiCPmkMlhh2GmLw9IkmdjpHHBwtjqgKyAcmCzrdwPjroEGyQTI6Mpen7FLgd47IWjvetE2/ItNUt6+tOl4481BTvcsZbF+uAm/dcNEvOcrlQwW4MYKsvRFP2wbkG3hZTbDxQ==/sl_iv/pprzgUq5MdxP37wvHeE1Vg==/sl_hm/YNwXYwjprv4ZWx7acc3gU6Xt2GD5TMz2YAEhpElZ+/8mwNpVRxFpjxOhaJenhQAS2J8KOCaypIArrRojt8kuhA==/sl_e/1732655797"
+                width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="papy-cailloux-video" title="papy_cailloux_video">
+            </iframe>
+        </div>
     </div>
     </main>
 <?php include_once 'includes/footer.php'?>
