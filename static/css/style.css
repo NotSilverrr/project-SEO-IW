@@ -124,3 +124,25 @@ footer{
     height: 5rem;
 }
 
+
+/*
+
+
+    STORY
+
+
+*/
+
+.story-p {
+    font-size: 1.15em;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.story-p:first-letter {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
