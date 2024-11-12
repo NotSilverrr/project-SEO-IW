@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <a href="index.php"><img src="static/img/gigaboulet.png" class="header_logo" alt="Logo_Gigaboulet"></a>
+        <a href="index.php"><img src="static/img/gigaboulet.webp" class="header_logo" alt="Logo_Gigaboulet"></a>
         <nav>
             <ul class="header_list">
                 <li><a href="">Magasin</a></li>
