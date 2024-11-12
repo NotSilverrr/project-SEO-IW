@@ -173,3 +173,9 @@ th, td {
 th {
     background-color: #f5f5f5;
 }
+
+.papy-cailloux-video-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
