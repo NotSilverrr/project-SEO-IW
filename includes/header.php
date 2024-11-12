@@ -5,6 +5,7 @@
             <ul class="header_list">
                 <li><a href="">Magasin</a></li>
                 <li><a href="./../story.php">Notre histoire</a></li>
+                <li><a href="./../why.php">Pourquoi Nous ?</a></li>
                 <li><a href="./../faq.php">Faq</a></li>
             </ul>
         </nav>

@@ -6,7 +6,7 @@ include "includes/head.php"
 <body>
     <?php include("includes/header.php");?>
     <main class="container">
-        <h1>Trouves le GigaBoulet qui te correspond</h1>
+        <h1>Trouves le <strong>Gigaboulet</strong> qui te correspond</h1>
         <div class="search-bar">
             <input type="text" placeholder="Rechercher des boulets...">
             <button type="submit">Rechercher</button>
