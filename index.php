@@ -86,9 +86,10 @@ include "includes/head.php"
                 <address>
                     Email : <a href="mailto:contact@gigaboulet.shop">contact@gigaboulet.shop</a><br>
                     Téléphone : <a href="tel:+330123456789">+33 01 23 45 67 89</a><br>
-                    Adresse : 123 Rue des Cailloux, Paris, France
+                    Adresse : 123 Rue des Boullets, Paris, France
                 </address>
                 <form action="/submit-form" method="post">
+                    <h3>Contact</h3>
                     <label for="name">Nom :</label>
                     <input type="text" id="name" name="name" required>
                     
