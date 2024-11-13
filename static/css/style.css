@@ -5,35 +5,36 @@
 */
 
 @font-face {
-    font-family: 'Kanit';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/static/font/Kanit-Italic.woff2') format('woff2');
+  font-family: "Kanit";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/static/font/Kanit-Italic.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/static/font/Kanit-Bold.woff2') format('woff2');
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/static/font/Kanit-Bold.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Kanit';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/static/font/Kanit-BoldItalic.woff2') format('woff2');
+  font-family: "Kanit";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/static/font/Kanit-BoldItalic.woff2") format("woff2");
 }
 
-*, *::after, *::before {
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-  
 
-body{
-    font-family: 'Kanit', sans-serif;
-    margin: 0px;
-    padding: 0px;
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 main{
@@ -43,14 +44,14 @@ main{
 }
 
 .container {
-    max-width: 1200px;
-    margin-right:  auto;
-    margin-left: auto;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /*
@@ -59,52 +60,52 @@ a {
 
 */
 
-header{
-    display: flex;
-    align-items: center;
-    
-    background-color: lightgray;
-    height: 7rem;    
+header {
+  display: flex;
+  align-items: center;
+
+  background-color: lightgray;
+  height: 7rem;
 }
 
 header .container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav a::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 0%;
-    background-color: black;
-    transition: 150ms ease-in-out;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: black;
+  transition: 150ms ease-in-out;
 }
 
 header nav a:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
-.header_logo{
-    height: 5rem;
+.header_logo {
+  height: 5rem;
 }
 
-.header_list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 3rem;
-    list-style-type: none;
-    margin-right: 3rem;
+.header_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 3rem;
+  list-style-type: none;
+  margin-right: 3rem;
 }
 
-.header_list li{
-    font-size: 1.3rem;
-    font-weight: bold;
+.header_list li {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 /*
@@ -113,16 +114,15 @@ header nav a:hover::after {
 
 */
 
-footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: lightgray;
-    height: 5rem;
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray;
+  height: 5rem;
 }
-
 
 /*
 
@@ -131,17 +131,17 @@ footer{
 */
 
 .story-p {
-    font-size: 1.15em;
-    line-height: 1.8;
-    color: #444;
-    margin-bottom: 20px;
-    text-align: justify;
+  font-size: 1.15em;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
 .story-p:first-letter {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #333;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333;
 }
 
 /*
@@ -150,31 +150,42 @@ footer{
 
 */
 
-
 .table-container {
-    max-width: 800px;
-    margin: 20px auto;
-    overflow-x: auto;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow-x: auto;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-th, td {
-    padding: 12px;
-    border: 1px solid #ddd;
-    text-align: left;
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
 th {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
-.papy-cailloux-video-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.papy-cailloux-video-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+
+    SHOP
+
+*/
+
+.shop_img {
+  max-width: 300px;
+  max-height: 200px;
 }
