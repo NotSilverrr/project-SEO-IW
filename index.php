@@ -6,63 +6,67 @@ include "includes/head.php"
 <body>
     <?php include("includes/header.php");?>
     <main class="container">
-        <h1>Trouves le <strong>GigaBoulet</strong> qui te correspond</h1>
-        <div class="search-bar">
-            <input type="text" placeholder="Rechercher des boulets...">
-            <button type="submit">Rechercher</button>
-        </div>
-        
-        <div class="filter-section">
-            <h2>Filtres</h2>
-            <select>
-                <option value="all">Tous les types</option>
-                <option value="decoratifs">Boulets décoratifs</option>
-                <option value="bricolage">Boulets pour bricolage</option>
-                <option value="naturels">Boulets naturels</option>
-                <option value="jardinage">Boulets pour jardinage</option>
-                <option value="prisonnier">Boulets de prisonnier</option>
-                <option value="poche">Boulets de poche</option>
-            </select>
-            <button type="button">Appliquer</button>
-        </div>
-        
-        <section class="product-grid">
-            <h2>Nos Produits</h2>
-            <div class="product-card">
-                <img src="static/images/boulet1.jpg" alt="Boulets décoratifs">
-                <h3>Boulets Décoratifs</h3>
-                <p>Idéal pour vos jardins ou aquariums.</p>
-                <p class="price">€10.00</p>
-                <button>Acheter</button>
-            </div>
-            <div class="product-card">
-                <img src="static/images/boulet2.jpg" alt="Boulets naturels">
-                <h3>Boulets Naturels</h3>
-                <p>Parfaits pour les projets de bricolage.</p>
-                <p class="price">€8.00</p>
-                <button>Acheter</button>
-            </div>
-            <div class="product-card">
-                <img src="static/images/boulet3.jpg" alt="Boulets pour jardinage">
-                <h3>Boulets pour Jardinage</h3>
-                <p>Améliorez le drainage de vos plantes.</p>
-                <p class="price">€12.00</p>
-                <button>Acheter</button>
-            </div>
-            <div class="product-card">
-                <img src="static/images/boulet4.jpg" alt="Boulets de prisonnier">
-                <h3>Boulets de Prisonnier</h3>
-                <p>Accessoire historique et décoratif.</p>
-                <p class="price">€15.00</p>
-                <button>Acheter</button>
-            </div>
-            <div class="product-card">
-                <img src="static/images/boulet5.jpg" alt="Boulets de poche">
-                <h3>Boulets de Poche</h3>
-                <p>Pratiques et amusants à collectionner.</p>
-                <p class="price">€5.00</p>
-                <button>Acheter</button>
-            </div>
+        <section id="accueil">
+            <h2>Découvrez Nos Cailloux Inoubliables</h2>
+            <p>Gigaboulet est la boutique idéale pour tous les amateurs de cailloux. Nous proposons une collection variée de cailloux uniques, rares et esthétiques pour embellir votre décoration ou compléter votre collection. Chez nous, chaque caillou a une histoire !</p>
+            <img src="images/accueil-cailloux.jpg" alt="Collection de cailloux uniques chez Gigaboulet">
+        </section>
+
+        <section id="produits">
+            <h2>Nos Cailloux Phare</h2>
+            <article>
+                <h3>Caillou Mystique</h3>
+                <p>Un caillou exceptionnel, idéal pour les collectionneurs de pierres rares. Couleurs captivantes et textures naturelles.</p>
+            </article>
+            <article>
+                <h3>Caillou de Décoration</h3>
+                <p>Ajoutez une touche naturelle à votre espace avec nos cailloux décoratifs. Parfait pour les amateurs de design minéral.</p>
+            </article>
+            <article>
+                <h3>Caillou de Collection</h3>
+                <p>Pour les passionnés de minéralogie, découvrez des cailloux uniques, sélectionnés pour leur beauté et leur rareté.</p>
+            </article>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <ul>
+                <li><strong>Livraison rapide</strong> - Recevez vos cailloux chez vous en un temps record.</li>
+                <li><strong>Garantie qualité</strong> - Tous nos cailloux sont soigneusement sélectionnés.</li>
+                <li><strong>Conseils personnalisés</strong> - Notre équipe vous aide à choisir les cailloux qui vous conviennent.</li>
+            </ul>
+        </section>
+
+        <section id="avis">
+            <h2>Ce Que Nos Clients Disent</h2>
+            <blockquote>
+                <p>"Gigaboulet propose des cailloux d'une qualité exceptionnelle ! Parfait pour ma collection. Je recommande vivement." - Jules L.</p>
+            </blockquote>
+            <blockquote>
+                <p>"Des pierres magnifiques et une livraison rapide. Merci Gigaboulet !" - Sophie R.</p>
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-Nous</h2>
+            <p>Vous avez des questions ou besoin de conseils ? N'hésitez pas à nous contacter :</p>
+            <address>
+                Email : <a href="mailto:contact@gigaboulet.shop">contact@gigaboulet.shop</a><br>
+                Téléphone : <a href="tel:+330123456789">+33 01 23 45 67 89</a><br>
+                Adresse : 123 Rue des Cailloux, Paris, France
+            </address>
+            <form action="/submit-form" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
         </section>
     </main>
     <?php include("includes/footer.php");?>
