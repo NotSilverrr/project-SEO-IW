@@ -1,3 +1,3 @@
 <footer>
-    <p>© Copyright 2024 GigaBoulet</p>
+    <p>© Copyright 2024 <strong>Gigaboulet</strong></p>
 </footer>

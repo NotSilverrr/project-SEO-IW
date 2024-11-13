@@ -6,13 +6,6 @@
 
 @font-face {
     font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/static/font/Kanit-Regular.woff2') format('woff2');
-}
-  
-@font-face {
-    font-family: 'Kanit';
     font-style: italic;
     font-weight: 400;
     src: url('/static/font/Kanit-Italic.woff2') format('woff2');
@@ -130,3 +123,58 @@ footer{
     height: 5rem;
 }
 
+
+/*
+
+    STORY
+
+*/
+
+.story-p {
+    font-size: 1.15em;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.story-p:first-letter {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+/*
+
+    WHY
+
+*/
+
+
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+.papy-cailloux-video-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
