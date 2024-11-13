@@ -31,6 +31,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: rgb(252, 247, 227);
+}
+
 body {
   font-family: "Kanit", sans-serif;
   margin: 0px;
@@ -64,7 +68,7 @@ header {
   display: flex;
   align-items: center;
 
-  background-color: rgb(221, 221, 221);
+  background-color: var(--main-color);
   height: 7rem;
 }
 
@@ -105,7 +109,6 @@ header nav a:hover::after {
 
 .header_list li {
   font-size: 1.3rem;
-  font-weight: bold;
 }
 
 /*
@@ -120,7 +123,7 @@ footer {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: lightgray;
+  background-color: var(--main-color);
   height: 5rem;
 }
 
@@ -198,7 +201,16 @@ th {
 
 */
 
+.index section:not(#banniere) {
+  margin: 4rem 0;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
 #banniere {
+  background-color: grey;
   position: relative;
   background-image: url('./../img/banniere_gigaboulet.webp');
   background-position: center;
@@ -213,7 +225,7 @@ th {
     margin: 0;
     top: 50%;
     transform: translateY(-50%);
-    text-shadow: 0px 0px 1rem #333;
+    text-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -226,6 +238,109 @@ th {
   transform: translateY(-50%);
   text-shadow: 0px 0px 1rem #333;
 } */
+
+#accueil {
+  background-color: var(--main-color);
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 3rem;
+  }
+
+  .text {
+    margin: auto 0;
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .images {
+    display: flex;
+    height: 25rem;
+    img {
+      width: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .flex-button {
+    display: flex;
+    align-items: center;
+    background-color: #0070F5;
+    border-radius: 0.5rem;
+    display: block;
+    width:fit-content;
+    padding: 0.5rem;
+    color: white;
+
+    a {
+      color: white;
+    }
+
+    i {
+      margin-left: 0.5rem;
+      transition: margin ease 100ms;
+
+    }
+
+    &:hover i{
+      margin-left: 1rem;
+    }
+  }
+}
+
+#produits {
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  article {
+    border-radius: 1rem;
+    border: 1px solid #999;
+    overflow: hidden;
+
+    img {
+      height: 15rem;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .text {
+      padding: 1rem;
+    }
+  }
+}
+
+#services {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  li {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  i {
+    font-size: 2rem;
+    color: #0070F5;
+  }
+}
+
 
 #avis {
   
@@ -247,9 +362,13 @@ th {
 
 
 #contact {
+  a {
+    text-decoration: underline;
+  }
   form {
     display: flex;
     flex-direction: column;
+    /* background-color: rgb(255, 246, 212); */
     border: 1px solid #999;
     border-radius: 1rem;
     padding: 2rem;
@@ -264,20 +383,22 @@ th {
 
     input, textarea {
       padding: 0.5rem;
-      border-radius: 0.5rem;
+      border-radius: 0.2rem;
+      border: 0;
       border: 1px solid #999;
-      background-color: rgb(243, 243, 243);
+      /* background-color: rgb(243, 243, 243); */
     }
 
     button {
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       border-radius: 0.5rem;
       font-size: 1rem;
       padding: 1rem;
       width: 10rem;
-      background-color: rgb(0, 153, 255);
+      background-color: #0070F5;
       color: white;
       border: none;
+      font-weight: bold;
     }
 
     button:hover {

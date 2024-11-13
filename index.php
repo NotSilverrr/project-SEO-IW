@@ -5,46 +5,93 @@ include "includes/head.php"
 ?>
 <body>
     <?php include("includes/header.php");?>
-    <main>
+    <main class="index">
         <section id="banniere">
             <div class="container">
                 <h1>Gigaboulet</h1>
             </div>
         </section>
-        <div class="container">
-            <section id="accueil">
-                <h2>Découvrez Nos Cailloux Inoubliables</h2>
-                <p>Gigaboulet est la boutique idéale pour tous les amateurs de cailloux. Nous proposons une collection variée de cailloux uniques, rares et esthétiques pour embellir votre décoration ou compléter votre collection. Chez nous, chaque caillou a une histoire !</p>
-                <img src="images/accueil-cailloux.jpg" alt="Collection de cailloux uniques chez Gigaboulet">
-            </section>
-        
-            <section id="produits">
-                <h2>Nos Cailloux Phare</h2>
-                <article>
-                    <h3>Caillou Mystique</h3>
-                    <p>Un caillou exceptionnel, idéal pour les collectionneurs de pierres rares. Couleurs captivantes et textures naturelles.</p>
-                </article>
-                <article>
-                    <h3>Caillou de Décoration</h3>
-                    <p>Ajoutez une touche naturelle à votre espace avec nos cailloux décoratifs. Parfait pour les amateurs de design minéral.</p>
-                </article>
-                <article>
-                    <h3>Caillou de Collection</h3>
-                    <p>Pour les passionnés de minéralogie, découvrez des cailloux uniques, sélectionnés pour leur beauté et leur rareté.</p>
-                </article>
-            </section>
+        <section id="accueil">
+            <div class="grid container">
+                <div class="text">
+                    <h2>Découvrez Nos Cailloux Inoubliables</h2>
+                    <p>Gigaboulet est la boutique idéale pour tous les amateurs de cailloux. Nous proposons une collection variée de cailloux uniques, rares et esthétiques pour embellir votre décoration ou compléter votre collection. Chez nous, chaque caillou a une histoire !</p>
+                    <a href="./market.php" class="flex-button">
+                        <span>Aller à la Boutique</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="images">
+                    <img src="static/img/pierre_yoga.webp" alt="Collection de cailloux uniques chez Gigaboulet">
+                    <img src="static/img/pierre_main.webp" alt="Collection de cailloux uniques chez Gigaboulet">
+                </div>
+            </div>
+            
+        </section>
+    
+        <section id="produits">
+            <div class="container">
+                <h2>Nos <strong>GigaBoulets</strong> Phare</h2>
+                <div class="grid">
+                    <a href="./market.php">
+                        <article>
+                            <img src="static/img/pierre_mystique.webp" alt="">
+                            <div class="text">
+                                <h1><strong>GigaBoulet</strong> Mystique</h1>
+                                <p>Un caillou exceptionnel, idéal pour les collectionneurs de pierres rares. Couleurs captivantes et textures naturelles.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="./market.php">
+                        <article>
+                            <img src="static/img/pierre_decoration.webp" alt="">
+                            <div class="text">
+                                <h1><strong>GigaBoulet</strong> de Décoration</h1>
+                                <p>Ajoutez une touche naturelle à votre espace avec nos <strong>GigaBoulets</strong> décoratifs. Parfait pour les amateurs de design minéral.</p>
 
-            <section id="services">
+                            </div>
+                        </article>
+                    </a>
+                    <a href="./market.php">
+                        <article>
+                            <img src="static/img/pierre_collection.webp" alt="">
+                            <div class="text">
+                                <h1><strong>GigaBoulet</strong> de Collection</h1>
+                                <p>Pour les passionnés de minéralogie, découvrez des <strong>GigaBoulets</strong> uniques, sélectionnés pour leur beauté et leur rareté.</p>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
                 <h2>Nos Services</h2>
                 <ul>
-                    <li><strong>Livraison rapide</strong> - Recevez vos cailloux chez vous en un temps record.</li>
-                    <li><strong>Garantie qualité</strong> - Tous nos cailloux sont soigneusement sélectionnés.</li>
-                    <li><strong>Conseils personnalisés</strong> - Notre équipe vous aide à choisir les cailloux qui vous conviennent.</li>
+                    <li>
+                        <i class="fas fa-shipping-fast"></i> <!-- Icône de livraison rapide -->
+                        <h3>Livraison rapide</h3>
+                        <p>Recevez vos cailloux chez vous en un temps record.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i> <!-- Icône de garantie qualité -->
+                        <h3>Garantie qualité</h3>
+                        <p>Tous nos cailloux sont soigneusement sélectionnés pour vous offrir le meilleur.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i> <!-- Icône de conseils personnalisés -->
+                        <h3>Conseils personnalisés</h3>
+                        <p>Notre équipe vous aide à choisir les cailloux qui vous conviennent.</p>
+                    </li>
                 </ul>
-            </section>
 
-            <section id="avis">
-                
+            </div>
+        </section>
+
+        <section id="avis">
+            <div class="container">
                 <h2>Ce Que Nos Clients Disent</h2>
                 <div class="grid">
                     <article>
@@ -54,7 +101,7 @@ include "includes/head.php"
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-regular fa-star-half-stroke"></i>
-
+    
                         </span>
                         <h1>Exceptionnel !!</h1>
                         <blockquote>
@@ -68,7 +115,7 @@ include "includes/head.php"
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-
+    
                         </span>
                         <h1>Le site de référence</h1>
                         <blockquote>
@@ -76,12 +123,12 @@ include "includes/head.php"
                         </blockquote>
                     </article>
                 </div>
-                
-                
-            </section>
+            </div>
+        </section>
 
-            <section id="contact">
-                <h2>Contactez-Nous</h2>
+        <section id="contact">
+            <div class="container">
+                <h2>Contactez-Nous !</h2>
                 <p>Vous avez des questions ou besoin de conseils ? N'hésitez pas à nous contacter :</p>
                 <address>
                     Email : <a href="mailto:contact@gigaboulet.shop">contact@gigaboulet.shop</a><br>
@@ -101,8 +148,9 @@ include "includes/head.php"
                     
                     <button type="submit">Envoyer</button>
                 </form>
-            </section>
-        </div>
+
+            </div>
+        </section>
     </main>
     <?php include("includes/footer.php");?>
 </body>
