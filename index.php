@@ -9,6 +9,42 @@ include "includes/head.php"
         <section id="banniere">
             <div class="container">
                 <h1>Gigaboulet</h1>
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+                preserveAspectRatio="xMidYMid meet">
+
+                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#000000" stroke="none">
+                <path d="M1080 3961 l-265 -66 -25 -50 c-115 -230 -199 -359 -317 -487 -40
+                -42 -73 -81 -73 -85 0 -5 -16 -168 -37 -365 l-37 -356 43 -115 c23 -64 50
+                -122 59 -129 9 -8 170 -112 357 -230 l340 -216 243 -24 c178 -18 249 -21 267
+                -13 13 5 93 65 177 131 142 112 165 135 291 291 l137 170 34 319 c31 288 33
+                322 20 349 -8 16 -72 131 -142 255 l-127 225 -305 232 c-269 205 -309 233
+                -340 232 -19 -1 -154 -31 -300 -68z m200 -116 c0 -27 -65 -293 -74 -301 -6 -6
+                -114 -39 -240 -73 -125 -34 -235 -65 -244 -68 -8 -4 9 29 39 73 29 43 77 126
+                107 184 l54 105 167 41 c173 43 191 47 191 39z m405 -213 l220 -169 67 -118
+                c37 -66 65 -121 64 -123 -4 -3 -646 287 -659 298 -5 4 5 71 22 149 17 78 31
+                144 31 147 0 10 39 -19 255 -184z m63 -452 c392 -179 403 -184 398 -209 -3
+                -14 -15 -123 -27 -242 l-23 -216 -276 -57 c-152 -31 -284 -56 -293 -56 -8 0
+                -87 54 -175 121 l-159 120 -17 176 -17 176 78 189 c57 139 82 187 93 185 8 -2
+                196 -86 418 -187z m-608 173 c0 -4 -27 -73 -60 -153 l-61 -145 -256 -168
+                c-140 -92 -258 -166 -260 -163 -5 5 42 465 48 470 4 4 568 164 582 165 4 1 7
+                -2 7 -6z m-104 -700 c-1 -1 -116 -44 -256 -96 -170 -63 -257 -91 -261 -83 -29
+                51 -35 46 238 226 l258 169 11 -107 c7 -59 11 -108 10 -109z m211 -245 c74
+                -56 132 -105 131 -109 -8 -20 -234 -259 -244 -257 -20 5 -484 303 -477 306 5
+                1 102 38 218 81 116 44 216 80 224 80 8 1 75 -45 148 -101z m675 -140 c-28
+                -36 -111 -113 -193 -179 l-144 -117 -130 13 c-71 7 -132 14 -134 14 -4 1 10
+                16 146 165 l72 79 208 42 c114 24 212 43 216 44 5 1 -13 -27 -41 -61z"/>
+                <path d="M2517 3339 c-48 -28 -38 -107 16 -132 28 -13 373 -151 1501 -598 137
+                -55 258 -99 268 -99 27 0 68 45 68 74 0 37 -10 55 -39 70 -71 37 -1752 696
+                -1772 696 -13 0 -32 -5 -42 -11z"/>
+                <path d="M2721 2464 c-12 -15 -21 -35 -21 -45 0 -50 22 -60 1014 -454 533
+                -212 978 -385 987 -385 10 0 30 11 45 23 30 26 36 79 11 104 -24 24 -1946 783
+                -1982 783 -24 0 -39 -7 -54 -26z"/>
+                <path d="M2005 1595 c-50 -50 -26 -100 67 -139 277 -115 1656 -656 1672 -656
+                64 1 95 100 42 135 -37 24 -1710 685 -1734 685 -13 0 -34 -11 -47 -25z"/>
+                </g>
+                </svg>
             </div>
         </section>
         <section id="accueil">
@@ -16,7 +52,7 @@ include "includes/head.php"
                 <div class="text">
                     <h2>Découvrez Nos Cailloux Inoubliables</h2>
                     <p>Gigaboulet est la boutique idéale pour tous les amateurs de cailloux. Nous proposons une collection variée de cailloux uniques, rares et esthétiques pour embellir votre décoration ou compléter votre collection. Chez nous, chaque caillou a une histoire !</p>
-                    <a href="./market.php" class="flex-button">
+                    <a href="/magasin" class="flex-button">
                         <span>Aller à la Boutique</span>
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
@@ -33,7 +69,7 @@ include "includes/head.php"
             <div class="container">
                 <h2>Nos <strong>GigaBoulets</strong> Phare</h2>
                 <div class="grid">
-                    <a href="./market.php">
+                    <a href="/magasin">
                         <article>
                             <img src="static/img/pierre_mystique.webp" alt="">
                             <div class="text">
@@ -42,7 +78,7 @@ include "includes/head.php"
                             </div>
                         </article>
                     </a>
-                    <a href="./market.php">
+                    <a href="/magasin">
                         <article>
                             <img src="static/img/pierre_decoration.webp" alt="">
                             <div class="text">
@@ -52,7 +88,7 @@ include "includes/head.php"
                             </div>
                         </article>
                     </a>
-                    <a href="./market.php">
+                    <a href="/magasin">
                         <article>
                             <img src="static/img/pierre_collection.webp" alt="">
                             <div class="text">
@@ -132,10 +168,10 @@ include "includes/head.php"
                 <p>Vous avez des questions ou besoin de conseils ? N'hésitez pas à nous contacter :</p>
                 <address>
                     Email : <a href="mailto:contact@gigaboulet.shop">contact@gigaboulet.shop</a><br>
-                    Téléphone : <a href="tel:+330123456789">+33 01 23 45 67 89</a><br>
+                    Téléphone : <a href="tel:+330123456789">+33 7 83 89 98 06</a><br>
                     Adresse : 123 Rue des Boullets, Paris, France
                 </address>
-                <form action="/submit-form" method="post">
+                <form method="post">
                     <h3>Contact</h3>
                     <label for="name">Nom :</label>
                     <input type="text" id="name" name="name" required>
