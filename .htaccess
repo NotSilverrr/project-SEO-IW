@@ -6,8 +6,3 @@ ExpiresActive On
 ExpiresByType image/jpeg "access plus 24 hours"
 ExpiresByType image/png "access plus 24 hours"
 ExpiresByType image/webp "access plus 24 hours"
-
-<Location "/index.php">
-    AddOutputFilterByType SUBSTITUTE text/html
-    Substitute "/acceuil"
-</Location>
