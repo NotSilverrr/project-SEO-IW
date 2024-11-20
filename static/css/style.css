@@ -140,7 +140,7 @@ header nav a:hover::after {
 .burger-menu {
   padding: 3rem;
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
@@ -149,6 +149,7 @@ header nav a:hover::after {
   background-color: var(--main-color);
   transform: translateX(100%);
   transition: 300ms ease;
+  visibility: hidden;
 
   .close {
     background-color: transparent;
@@ -159,6 +160,8 @@ header nav a:hover::after {
 
 
   &.open {
+    visibility: visible;
+    
     transform: translateX(0%);
 
   }
