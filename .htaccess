@@ -10,6 +10,6 @@ ExpiresByType image/webp "access plus 24 hours"
 RewriteEngine  on
 RewriteRule ^acceuil$ /index.php [L]
 RewriteRule ^histoire$ /story.php [L]
-RewriteRule ^magasin$ /shop.php [L]
+RewriteRule ^magasin$ /market.php [L]
 RewriteRule ^pourquoi-nous$ /why.php [L]
 RewriteRule ^faq$ /faq.php [L]
