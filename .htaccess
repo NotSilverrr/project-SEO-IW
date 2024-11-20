@@ -13,4 +13,7 @@ RewriteRule ^histoire$ /story.php [L]
 RewriteRule ^magasin$ /market.php [L]
 RewriteRule ^pourquoi-nous$ /why.php [L]
 RewriteRule ^faq$ /faq.php [L]
-RewriteRule ^.*$ /404.php [L,R=404]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /404.php [L]
