@@ -1,12 +1,12 @@
 <header>
     <div class="container">
-        <a href="index.php"><img src="static/img/gigaboulet.webp" class="header_logo" alt="Logo_Gigaboulet"></a>
+        <a href="/acceuil"><img src="static/img/gigaboulet.webp" class="header_logo" alt="Logo_Gigaboulet"></a>
         <nav>
             <ul class="header_list">
-                <li><a href="./../market.php">Magasin</a></li>
-                <li><a href="./../story.php">Notre histoire</a></li>
-                <li><a href="./../why.php">Pourquoi Nous ?</a></li>
-                <li><a href="./../faq.php">Faq</a></li>
+                <li><a href="/magasin">Magasin</a></li>
+                <li><a href="/histoire">Notre histoire</a></li>
+                <li><a href="/pourquoi-nous">Pourquoi Nous ?</a></li>
+                <li><a href="/faq">Faq</a></li>
             </ul>
         </nav>
     </div>
