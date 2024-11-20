@@ -6,3 +6,6 @@ ExpiresActive On
 ExpiresByType image/jpeg "access plus 24 hours"
 ExpiresByType image/png "access plus 24 hours"
 ExpiresByType image/webp "access plus 24 hours"
+
+RewriteEngine  on
+RewriteRule    "^/index.php" "/acceuil" [PT]
