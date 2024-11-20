@@ -8,4 +8,4 @@ ExpiresByType image/png "access plus 24 hours"
 ExpiresByType image/webp "access plus 24 hours"
 
 RewriteEngine  on
-RewriteRule    "^/index.php" "/acceuil" [PT]
+RewriteRule    "^/index.php" "/acceuil" [R]
