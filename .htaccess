@@ -1,0 +1,12 @@
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpeg|png|webp)$">
+        Header set Cache-Control "public, max-age=86400"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 24 hours"
+    ExpiresByType image/png "access plus 24 hours"
+    ExpiresByType image/webp "access plus 24 hours"
+</IfModule>
