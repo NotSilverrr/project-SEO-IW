@@ -41,10 +41,10 @@ body {
   padding: 0px;
 }
 
-main{
-    min-height: calc(100vh - 112px - 80px);
-    display: flex;
-    flex-direction: column;
+main {
+  min-height: calc(100vh - 112px - 80px);
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -58,7 +58,7 @@ a {
   color: black;
 }
 
-.centered{
+.centered {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,12 +158,10 @@ header nav a:hover::after {
     margin-bottom: 2rem;
   }
 
-
   &.open {
     visibility: visible;
-    
-    transform: translateX(0%);
 
+    transform: translateX(0%);
   }
 
   .burger_list {
@@ -257,12 +255,134 @@ th {
 
 */
 
-.shop_img {
-  max-width: 300px;
-  max-height: 200px;
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
+label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
 
+/* Dropdown search selector */
+.dropdown-search-selector {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  background: #f9f9f9;
+}
+
+.dropdown-container input {
+  flex: 2;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.dropdown-container select {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.dropdown-container input:focus,
+.dropdown-container select:focus {
+  border-color: #007bff;
+}
+
+button,
+.search-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Grille de produits */
+.product-grid {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Cartes de produits */
+.product-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.product-card .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 10px 0;
+}
 
 /*
 
@@ -292,7 +412,6 @@ th {
     svg {
       height: 500px;
     }
-
   }
 }
 
@@ -333,10 +452,10 @@ th {
   .flex-button {
     display: flex;
     align-items: center;
-    background-color: #0070F5;
+    background-color: #0070f5;
     border-radius: 0.5rem;
     display: block;
-    width:fit-content;
+    width: fit-content;
     padding: 0.5rem;
     color: white;
 
@@ -347,17 +466,15 @@ th {
     i {
       margin-left: 0.5rem;
       transition: margin ease 100ms;
-
     }
 
-    &:hover i{
+    &:hover i {
       margin-left: 1rem;
     }
   }
 }
 
 #produits {
-
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -404,29 +521,26 @@ th {
 
   i {
     font-size: 2rem;
-    color: #0070F5;
+    color: #0070f5;
   }
 }
 
-
 #avis {
-  
   article {
     border-radius: 1rem;
     border: 1px solid #999;
     padding: 2rem;
-  };
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem
-  };
+    gap: 2rem;
+  }
 
   i {
     color: rgb(255, 196, 0);
   }
 }
-
 
 #contact {
   a {
@@ -448,7 +562,8 @@ th {
       width: 50%;
     }
 
-    input, textarea {
+    input,
+    textarea {
       padding: 0.5rem;
       border-radius: 0.2rem;
       border: 0;
@@ -462,7 +577,7 @@ th {
       font-size: 1rem;
       padding: 1rem;
       width: 10rem;
-      background-color: #0070F5;
+      background-color: #0070f5;
       color: white;
       border: none;
       font-weight: bold;
@@ -481,7 +596,10 @@ th {
   .burger-menu {
     display: block;
   }
-  #avis .grid, #services ul, #produits .grid, #accueil .grid {
+  #avis .grid,
+  #services ul,
+  #produits .grid,
+  #accueil .grid {
     grid-template-columns: 1fr;
   }
 
@@ -510,11 +628,10 @@ th {
     font-size: 1rem;
   }
 
-  .index section:not(#banniere){
+  .index section:not(#banniere) {
     margin: 1rem 0;
     h2 {
       font-size: 2rem;
-
     }
   }
 }
@@ -525,17 +642,17 @@ th {
 
 */
 
-.text-link{
+.text-link {
   text-decoration: underline;
 }
 
-.articles-container{
+.articles-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.article{
+.article {
   width: 30rem;
   margin: 1rem;
   border-radius: 20px;
@@ -543,7 +660,7 @@ th {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  section{
+  section {
     margin: 1rem;
   }
 }
