@@ -1,0 +1,19 @@
+<FilesMatch "\.(jpeg|png|webp)$">
+    Header set Cache-Control "public, max-age=86400"
+</FilesMatch>
+
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 24 hours"
+ExpiresByType image/png "access plus 24 hours"
+ExpiresByType image/webp "access plus 24 hours"
+
+RewriteEngine  on
+RewriteRule ^$ /index.php [L]
+RewriteRule ^histoire$ /story.php [L]
+RewriteRule ^magasin$ /market.php [L]
+RewriteRule ^pourquoi-nous$ /why.php [L]
+RewriteRule ^faq$ /faq.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /404.php [L]
