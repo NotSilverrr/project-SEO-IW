@@ -10,7 +10,7 @@
             </ul>
             
         </nav>
-        <button class="burger-button" id="burger-button" onclick="openBurger()">
+        <button class="burger-button" id="burger-button" onclick="openBurger()" aria-label="Bouton Menu">
             <span></span>
             <span></span>
             <span></span>
