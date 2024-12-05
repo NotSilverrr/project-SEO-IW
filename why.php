@@ -32,9 +32,15 @@ include_once 'includes/head.php';?>
                 </tr>
             </tbody>
         </table>
-        <h2>Papy Cailloux, un pionier de <strong>Gigaboulet</strong></h2>
+        <h2>Présentation de cailloux type <strong>Gigaboulet</strong> :</h2>
 
         <div class="papy-cailloux-video-div">
+            <iframe 
+                src="https://www.youtube.com/embed/kT_0y3ybzpg" 
+                title="YouTube Video Player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
     </main>
