@@ -249,12 +249,11 @@ th {
   align-items: center;
 }
 
-/*
+/* 
 
-    SHOP
+    SHOP 
 
 */
-
 /* Styles globaux */
 body {
   font-family: Arial, sans-serif;
@@ -273,72 +272,75 @@ label {
 
 /* Dropdown search selector */
 .dropdown-search-selector {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
   align-items: center;
-  gap: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 8px;
-  background: #f9f9f9;
 }
 
 .dropdown-container input {
   flex: 2;
-  padding: 10px;
+  padding: 12px;
   font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   outline: none;
+  transition: border-color 0.3s ease;
 }
 
 .dropdown-container select {
   flex: 1;
-  padding: 10px;
+  padding: 12px;
   font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   outline: none;
-  background: #fff;
+  background: #f8f9fa;
   cursor: pointer;
+  transition: border-color 0.3s ease;
 }
 
 .dropdown-container input:focus,
 .dropdown-container select:focus {
   border-color: #007bff;
+  background-color: #f0f8ff;
 }
 
-button,
 .search-btn {
+  flex: 0.5;
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 15px;
-  font-size: 14px;
+  padding: 12px 20px;
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-button:hover,
 .search-btn:hover {
   background-color: #0056b3;
 }
 
 /* Grille de produits */
 .product-grid {
-  display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
-  max-width: 1200px;
+  width: 100%;
 }
 
 /* Cartes de produits */
@@ -359,8 +361,9 @@ button:hover,
 }
 
 .product-card img {
-  width: 50%;
-  height: auto;
+  width: 45%;
+  max-height: 350px;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 10px;
 }
