@@ -518,3 +518,32 @@ th {
     }
   }
 }
+
+/*
+
+    BLOG
+
+*/
+
+.text-link{
+  text-decoration: underline;
+}
+
+.articles-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.article{
+  width: 30rem;
+  margin: 1rem;
+  border-radius: 20px;
+  border: 1rem solid var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  section{
+    margin: 1rem;
+  }
+}

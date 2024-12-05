@@ -35,9 +35,6 @@ include_once 'includes/head.php';?>
         <h2>Papy Cailloux, un pionier de <strong>Gigaboulet</strong></h2>
 
         <div class="papy-cailloux-video-div">
-            <iframe src="https://media-hub.ina.fr/video/NhIbs08+9v/aHGEtFuJiCPmkMlhh2GmLw9IkmdjpHHBwtjqgKyAcmCzrdwPjroEGyQTI6Mpen7FLgd47IWjvetE2/ItNUt6+tOl4481BTvcsZbF+uAm/dcNEvOcrlQwW4MYKsvRFP2wbkG3hZTbDxQ==/sl_iv/pprzgUq5MdxP37wvHeE1Vg==/sl_hm/YNwXYwjprv4ZWx7acc3gU6Xt2GD5TMz2YAEhpElZ+/8mwNpVRxFpjxOhaJenhQAS2J8KOCaypIArrRojt8kuhA==/sl_e/1732655797"
-                width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="papy-cailloux-video" title="papy_cailloux_video">
-            </iframe>
         </div>
     </div>
     </main>

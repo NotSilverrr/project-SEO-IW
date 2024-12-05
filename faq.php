@@ -38,7 +38,10 @@ include_once 'includes/head.php'?>
             <h2>Puis-je retourner un Gigaboulet si je ne suis pas satisfait ?</h2>
             <p>Bien sûr. Vous disposez d’un délai de 30 jours pour retourner un Gigaboulet non endommagé et bénéficier d’un échange ou d’un remboursement.</p>
         </section>
-
+        <section>
+            <h2>Comment en apprendre plus sur les Gigaboulet ?</h2>
+            <p>Sur notre page <a href="blog.php" class="text-link">blog</a>,nous vous tenons au courrant de toute l'actualité concernant les Gigaboulets !</p>
+        </section>
         
     </main>
 <?php include_once 'includes/footer.php'?>
