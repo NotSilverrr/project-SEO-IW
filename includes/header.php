@@ -7,8 +7,7 @@
                 <li><a href="/histoire">Notre histoire</a></li>
                 <li><a href="/pourquoi-nous">Pourquoi Nous ?</a></li>
                 <li><a href="/faq">Faq</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/blog-court">Blog</a></li>
+                <li><a href="/blog-court">Blog</a></li>
             </ul>
             
         </nav>
@@ -28,7 +27,6 @@
         <li><a href="/histoire">Notre histoire</a></li>
         <li><a href="/pourquoi-nous">Pourquoi Nous ?</a></li>
         <li><a href="/faq">Faq</a></li>
-        <li><a href="/blog">Blog</a></li>
         <li><a href="/blog-court">Blog</a></li>
     </ul>
 </section>
