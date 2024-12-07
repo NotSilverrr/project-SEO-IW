@@ -33,6 +33,7 @@
 
 :root {
   --main-color: rgb(252, 247, 227);
+  --main-color-dark: rgb(179, 175, 162);
 }
 
 body {
@@ -665,5 +666,18 @@ label {
   justify-content: space-between;
   section {
     margin: 1rem;
+  }
+}
+
+.article-link{
+  background-color: var(--main-color);
+  border-radius: 25px;
+  height: 2rem;
+  padding: 0.4rem;
+  font-weight: bold;
+  transition: 1s;
+  &:hover{
+  background-color: var(--main-color-dark);
+  height: 2.5rem;
   }
 }

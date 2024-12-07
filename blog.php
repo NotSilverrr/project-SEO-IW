@@ -5,6 +5,12 @@ include_once 'includes/head.php';?>
 <?php include_once 'includes/header.php'?>
 <main class="container">
 <h1>Blog </h1>
+<h2>Nos articles longs : </h2>
+
+<a href="blog/blog_1.php" class="article-link">Les boulets égiptiens</a>
+<a href="blog/blog_2.php" class="article-link">Les boulets volcanique</a>
+
+<h2>Nos articles courts : </h2>
 
 <section class="articles-container">
     <article class="article">
