@@ -7,8 +7,8 @@ include_once 'includes/head.php';?>
 <h1>Blog </h1>
 <h2>Nos articles longs : </h2>
 
-<a href="blog/blog_1.php" class="article-link">Les boulets égiptiens</a>
-<a href="blog/blog_2.php" class="article-link">Les boulets volcanique</a>
+<a href="/gigaboulet-egypte" class="article-link">Les boulets égiptiens</a>
+<a href="/gigaboulet-volcanique" class="article-link">Les boulets volcanique</a>
 
 <h2>Nos articles courts : </h2>
 
