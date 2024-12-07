@@ -11,7 +11,7 @@ RewriteEngine  on
 RewriteRule ^$ /index.php [L]
 RewriteRule ^histoire$ /story.php [L]
 RewriteRule ^magasin$ /market.php [L]
-RewriteRule ^blog$ /blog.php [L]
+RewriteRule ^blog-court$ /blog.php [L]
 RewriteRule ^pourquoi-nous$ /why.php [L]
 RewriteRule ^faq$ /faq.php [L]
 
