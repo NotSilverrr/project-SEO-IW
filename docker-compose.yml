@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  web:
+  app:
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,5 +10,5 @@ services:
     volumes:
       - .:/var/www/html
     environment:
-      - APACHE_RUN_USER=www-data
-      - APACHE_RUN_GROUP=www-data
+      - PHP_FPM_USER=www-data
+      - PHP_FPM_GROUP=www-data
