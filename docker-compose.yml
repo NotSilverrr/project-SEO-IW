@@ -9,6 +9,7 @@ services:
       - "80:80"
     volumes:
       - /var/html/project-SEO-IW:/var/www/html
+      - /var/html/project-SEO-IW/nginx.conf:/etc/nginx/nginx.conf
     environment:
       - PHP_FPM_USER=www-data
       - PHP_FPM_GROUP=www-data
