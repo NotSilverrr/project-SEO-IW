@@ -1,24 +1,25 @@
-# Utiliser une image PHP avec Apache déjà configurée
-FROM php:8.3-apache
+FROM php:8.3-fpm
 
-# Installer les extensions PHP nécessaires
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
     libfreetype6-dev \
-    && docker-php-ext-configure gd --with-freetype --with-jpeg
+    nginx \
+    supervisor \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install gd \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Activer le module rewrite d'Apache
-RUN a2enmod rewrite
+COPY nginx.conf /etc/nginx/nginx.conf
 
-# Copier les fichiers de l'application dans le conteneur
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
 COPY . /var/www/html
 
-# Définir le dossier de travail
 WORKDIR /var/www/html
 
-# Changer les permissions
 RUN chown -R www-data:www-data /var/www/html
 
-# Exposer le port 80
 EXPOSE 80
+
+CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
