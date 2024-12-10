@@ -40,7 +40,7 @@ include "includes/head.php"
             <h3>Boulets Naturels</h3>
                 <p>Parfaits pour les projets de bricolage.</p>
                 <p class="price">€8.00</p>
-                <a href="/buypage.php" class="acheter">Acheter ce boulet</a>                
+                <a href="/troll-achat" class="acheter">Acheter ce boulet</a>                
                 <a href="/histoire" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
