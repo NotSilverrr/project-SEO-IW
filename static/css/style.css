@@ -269,7 +269,20 @@ label {
   margin-bottom: 8px;
   color: #333;
 }
-
+.acheter {
+  display: inline-block;
+  border: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  border-color: #007bff;
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+.acheter:hover {
+  border-color: #0056b3;
+  background-color: #d4d4d4;
+}
 /* Dropdown search selector */
 .dropdown-search-selector {
   width: 80%;

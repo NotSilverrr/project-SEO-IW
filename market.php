@@ -31,7 +31,8 @@ include "includes/head.php"
                 <h3>Boulets Décoratifs</h3>
                 <p>Idéal pour vos jardins ou aquariums.</p>
                 <p class="price">€10.00</p>
-                <button>Acheter</button>
+                <a href="./buypage.php" class="acheter">Acheter ce boulet</a>                
+                <a href="./story.php" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
             <img class= shop_img src="static/img/boulets naturels 2.webp" alt="Boulets naturels">
@@ -39,7 +40,8 @@ include "includes/head.php"
             <h3>Boulets Naturels</h3>
                 <p>Parfaits pour les projets de bricolage.</p>
                 <p class="price">€8.00</p>
-                <button>Acheter</button>
+                <a href="./buypage.php" class="acheter">Acheter ce boulet</a>                
+                <a href="./story.php" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
             <img class= shop_img src="static/img/boulets jardinnage 2.webp" alt="Boulets pour jardinage">
@@ -47,7 +49,8 @@ include "includes/head.php"
                 <h3>Boulets pour Jardinage</h3>
                 <p>Améliorez le drainage de vos plantes.</p>
                 <p class="price">€12.00</p>
-                <button>Acheter</button>
+                <a href="./buypage.php" class="acheter">Acheter ce boulet</a>                
+                <a href="./story.php" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
             <img class= shop_img src="static/img/boulet prisonnier 2.webp" alt="Boulets de prisonnier">
@@ -55,7 +58,8 @@ include "includes/head.php"
             <h3>Boulets de Prisonnier</h3>
                 <p>Accessoire historique et décoratif.</p>
                 <p class="price">€15.00</p>
-                <button>Acheter</button>
+                <a href="./buypage.php" class="acheter">Acheter ce boulet</a>                
+                <a href="./story.php" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
             <img class= shop_img src="static/img/boulets de poche.webp" alt="Boulets de poche">
@@ -63,7 +67,8 @@ include "includes/head.php"
             <h3>Boulets de Poche</h3>
                 <p>Pratiques et amusants à collectionner.</p>
                 <p class="price">€5.00</p>
-                <button>Acheter</button>
+                <a href="./buypage.php" class="acheter">Acheter ce boulet</a>                
+                <a href="./story.php" class="acheter">En savoir plus</a>
             </div>
             <!-- Ajouter d'autres cartes de produits ici -->
         </section>
