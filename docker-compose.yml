@@ -6,10 +6,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8085:80"
+      - "80:80"
+      - "443:443"
     volumes:
-      - .:/var/www/html
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - /var/www/project-SEO-IW:/var/www/html
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/project-SEO-IW/nginx.conf:/etc/nginx/nginx.conf
     environment:
       - PHP_FPM_USER=www-data
       - PHP_FPM_GROUP=www-data
