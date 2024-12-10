@@ -9,6 +9,7 @@ include_once 'includes/head.php';?>
 
 <a href="/gigaboulet-egypte" class="article-link">Les boulets égiptiens</a>
 <a href="/gigaboulet-volcanique" class="article-link">Les boulets volcanique</a>
+<a href="/gigaboulet-sous-marin" class="article-link">Les boulets sous marins</a>
 
 <h2>Nos articles courts : </h2>
 

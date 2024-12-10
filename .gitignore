@@ -1,5 +1,4 @@
 
-nginx.conf
 docker-compose.yml
 supervisord.log
 supervisord.pid
