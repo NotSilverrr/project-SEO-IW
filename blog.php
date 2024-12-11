@@ -9,7 +9,7 @@ include_once 'includes/head.php';?>
 
 <a href="blog/blog_1.php" class="article-link">Les boulets égiptiens</a>
 <a href="blog/blog_2.php" class="article-link">Les boulets volcanique</a>
-
+ 
 <h2>Nos articles courts : </h2>
 
 <section class="articles-container">
