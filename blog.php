@@ -6,7 +6,7 @@ include_once 'includes/head.php';?>
 <main class="container">
 <h1>Blog </h1>
 <h2>Nos articles longs : </h2>
-
+ 
 <a href="blog/blog_1.php" class="article-link">Les boulets égiptiens</a>
 <a href="blog/blog_2.php" class="article-link">Les boulets volcanique</a>
  
