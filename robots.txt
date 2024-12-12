@@ -1,2 +1,2 @@
 user-agent: *
-# Sitemap: url
+Sitemap: sitemap.xml
