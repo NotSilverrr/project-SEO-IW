@@ -40,7 +40,7 @@ include_once 'includes/head.php'?>
         </section>
         <section>
             <h2>Comment en apprendre plus sur les Gigaboulet ?</h2>
-            <p>Sur notre page <a href="/blog" class="text-link">blog</a>,nous vous tenons au courrant de toute l'actualité concernant les Gigaboulets !</p>
+            <p>Sur notre page <a href="/blog-court" class="text-link">blog</a>,nous vous tenons au courrant de toute l'actualité concernant les Gigaboulets !</p>
         </section>
         
     </main>
