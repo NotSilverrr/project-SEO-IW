@@ -100,13 +100,43 @@ include_once 'includes/head.php';?>
             <p>
                 Ces sphères naturelles se forment souvent dans des sédimеnts marins ou lacustres, où des réactions 
                 c‍himiques favоrisent l'accumulation progressive de couches de minérauх. Ce processus peut également ê‍tre 
-                observé dans des formаtions plus réduites, telles que les <a href="https://fr.wikipedia.org/wiki/Concr%C3%A9tion" target="_blank" class="text-link"">concrétions</a> calcairеs des grottes.
+                observé dans des formаtions plus réduites, telles que les <a href="https://fr.wikipedia.org/wiki/Concr%C3%A9tion" target="_blank" class="text-link">concrétions</a> calcairеs des grottes.
             </p>
         </section>
         <footer>
             <p>
             Les boulets naturels ne sont pas seulement une merveillе esthétique, mais aussi des fenêtres sur les‍ 
             processus géоlogiques complexes qui ont façonné notre planète.
+            </p>
+        </footer>
+    </article>
+    <article class="article">
+        <header>
+            <h1>Les <strong>Gigaboulets</strong>,Une origine extraterrestre ?</h1>
+        </header>
+        <section>
+            <p>
+                Après en avoir tant appris sur les gigaboulets,il est normal de se demander : d'ou vienne t'ils? Pour la plupars
+                il s'agit tout simplement de cailloux de grande taille soit naturel,soit modifié par l'homme,mais pour certains,
+                c'est une tout autre histoire.
+            </p>
+            <p>
+                En effet après des fouille archéologique les scietifique se sont rendu compte que certain <strong>gigaboulets</strong>
+                ne vienne pas de notre planète.Les analyse on montré des trace de roche lunaire,martienne ou encore des astéroides.
+            </p>
+        </section>
+        <section>
+            <h2>Quel est la conséquence pour les <strong>gigaboulets</strong> moderne?</h2>
+            <p>
+                Il est possible que la différence de qualité entre les ancien boulets et les nouveau soit du a Cette
+                différence de matériaux,en effet les <strong>gigaboulets</strong> moderne sont la plupars du temps fais de roche
+                de mauvaise qualité ou de roche synthétique
+            </p>
+        </section>
+        <footer>
+            <p>
+                Mais n'ayez pas peur ! si vous cherchez des <strong>gigaboulets</strong> authentique,vous etes au bon endroit !
+                N'hésitez pas a faire un tout au <a href="/magasin" class="text-link">Magasin</a>
             </p>
         </footer>
     </article>
