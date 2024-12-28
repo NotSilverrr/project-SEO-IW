@@ -7,9 +7,13 @@ include_once 'includes/head.php';?>
 <h1>Blog </h1>
 <h2>Nos articles longs : </h2>
 
-<a href="/gigaboulet-egypte" class="article-link">Les boulets égyptiens</a>
-<a href="/gigaboulet-volcanique" class="article-link">Les boulets volcanique</a>
-<a href="/gigaboulet-sous-marin" class="article-link">Les boulets sous marins</a>
+<div class="long-articles">
+    <a href="/gigaboulet-egypte" class="article-link">Les boulets égyptiens</a>
+    <a href="/gigaboulet-volcanique" class="article-link">Les boulets volcanique</a>
+    <a href="/gigaboulet-sous-marin" class="article-link">Les boulets sous marins</a>
+</div>
+
+
 
 <h2>Nos articles courts : </h2>
 

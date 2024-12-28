@@ -33,7 +33,7 @@
 
 :root {
   --main-color: rgb(252, 247, 227);
-  --main-color-dark: rgb(179, 175, 162);
+  --main-color-dark: rgb(238, 233, 212);
 }
 
 body {
@@ -50,6 +50,8 @@ main {
 
 .container {
   max-width: 1200px;
+  width: 100%;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -185,14 +187,26 @@ header nav a:hover::after {
 
 */
 
-footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
+body > footer {
   background-color: var(--main-color);
   height: 5rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .networks {
+    display: flex;
+    gap: 1rem;
+    i {
+      font-size: 1.3rem;
+    }
+  }
 }
 
 /*
@@ -606,6 +620,18 @@ label {
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   header .burger-button {
     display: flex;
@@ -651,6 +677,11 @@ label {
       font-size: 2rem;
     }
   }
+
+  footer .container {
+    flex-direction: column;
+    align-items: start;
+  }
 }
 
 /*
@@ -682,15 +713,19 @@ label {
   }
 }
 
+.long-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .article-link{
   background-color: var(--main-color);
   border-radius: 25px;
-  height: 2rem;
-  padding: 0.4rem;
+  padding: 1rem;
   font-weight: bold;
-  transition: 1s;
+  transition: 200ms;
   &:hover{
   background-color: var(--main-color-dark);
-  height: 2.5rem;
   }
 }
