@@ -4,11 +4,11 @@ $description = "Toutes les réponses a vos questions sur nos Gigaboulet";
 include_once '../includes/head.php'?>
 <body>
 <?php include_once '../includes/header.php'?>
-    <main class="container">
-    <article>
-    <header>
+<header>
         <h1>Les Boulets Égyptiens : Trésors de l’Histoire Ancienne</h1>
     </header>
+    <main class="container">
+    <article>
     <section>
         <p>Les <strong>boulets égyptiens</strong>, également appelés рrojectiles de guerre ou pierres sphériques, sont des vestіges fascinants 
         des anciennes civilisations égyptiennes. Utіlisés à des fins militaires ou rituelles, ces boulets rеflètent l'ingéniosité des 

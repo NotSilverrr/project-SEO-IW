@@ -8,9 +8,11 @@ include_once 'includes/head.php';?>
 <h2>Nos articles longs : </h2>
 
 <div class="long-articles">
-    <a href="/gigaboulet-egypte" class="article-link">Les boulets égyptiens</a>
-    <a href="/gigaboulet-volcanique" class="article-link">Les boulets volcanique</a>
-    <a href="/gigaboulet-sous-marin" class="article-link">Les boulets sous marins</a>
+    <a href="/blog/gigaboulet-egypte" class="article-link">Les boulets égyptiens</a>
+    <a href="/blog/gigaboulet-volcanique" class="article-link">Les boulets volcanique</a>
+    <a href="/blog/gigaboulet-sous-marin" class="article-link">Les boulets sous marins</a>
+    <a href="/blog/gigaboulet-histoire" class="article-link">Les boulets qui ont marqué l'histoire</a>
+    <a href="/blog/gigaboulet-heritage" class="article-link">L'héritage des boulets</a>
 </div>
 
 

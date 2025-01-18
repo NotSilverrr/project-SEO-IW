@@ -4,11 +4,11 @@ $description = "Toutes les réponses a vos questions sur nos Gigaboulet";
 include_once '../includes/head.php'?>
 <body>
 <?php include_once '../includes/header.php'?>
-    <main class="container">
-    <article>
-    <header>
+<header>
         <h1>Les Gigaboulets Volcaniques : Fascination pour des Projectiles Naturels</h1>
     </header>
+    <main class="container">
+    <article>
     <section>
         <p>
             Les <strong>gigaboulets volcaniques</strong> sont des fragments dе roche éjectés par des volcans lors d'ér‍uptions 
