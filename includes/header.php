@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <a href="/"><img src="static/img/gigaboulet.webp" class="header_logo" alt="Logo_Gigaboulet"></a>
+        <a href="/"><img src="/static/img/gigaboulet.webp" class="header_logo" alt="Logo_Gigaboulet"></a>
         <nav>
             <ul class="header_list">
                 <li><a href="/magasin">Magasin</a></li>
@@ -20,7 +20,7 @@
     <script src="../static/js/burger.js"></script>
 </header>
 
-<section class="burger-menu" id="burger-menu">
+<div class="burger-menu" id="burger-menu">
     <button class="close" onclick="closeBurger()">X</button>
     <ul class="burger_list">
         <li><a href="/magasin">Magasin</a></li>
@@ -29,4 +29,4 @@
         <li><a href="/faq">Faq</a></li>
         <li><a href="/blog-court">Blog</a></li>
     </ul>
-</section>
+</div>

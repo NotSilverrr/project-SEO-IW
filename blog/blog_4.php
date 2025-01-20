@@ -1,72 +1,133 @@
 <?php
 $title = "Gigaboulet - Article";
-$description = "Toutes les réponses à vos questions sur les Boulets Qui Cliquent sur des sites inutiles";
-include_once '../includes/head.php';
-?>
+$description = "Toutes les réponses a vos questions sur nos Gigaboulet";
+include_once '../includes/head.php'?>
 <body>
-<?php include_once '../includes/header.php'; ?>
-    <main class="container">
-        <article>
-            <header>
-                <h1>Les Boulets Qui Cliquent : Voyage dans l'Univers des Sites Inutiles</h1>
-            </header>
-            <section>
-                <p>Les <strong>boulets qui cliquent</strong> sont une catégorie bien spécifique d’internautes : ces âmes perdues du web qui, par curiosité ou ennui, se retrouvent sur des sites à l’utilité discutable. Entre générateurs de mots aléatoires et simulateurs de bouton rouge, ces plateformes captivent leur public d’une manière aussi étrange qu’inexplicable.</p>
+<?php include_once '../includes/header.php'?>
+<header>
 
-                <p>Dans cet article, nous explorons ces sites inutiles et la fascination qu’ils exercent sur leurs visiteurs.</p>
-            </section>
+    <h1>Marquons l’histoire</h1>
 
-            <section>
-                <h2>L'Étrange Attraction des Sites Inutiles</h2>
-                <p>Qu'est-ce qui pousse les internautes à cliquer frénétiquement sur des liens douteux pour finir sur un site qui génère des "Meuh" aléatoires ou qui affiche un chat dansant en boucle ? La réponse réside peut-être dans plusieurs facteurs psychologiques :</p>
+</header>
+<main class="container">
 
-                <ul>
-                    <li><strong>Curiosité humaine</strong> : L'envie de voir "ce qu'il y a derrière" un lien mystérieux.</li>
-                    <li><strong>Procrastination</strong> : Ces sites offrent un échappatoire parfait à la productivité.</li>
-                    <li><strong>Humour absurde</strong> : Les concepts décalés séduisent ceux qui cherchent un moment de légèreté.</li>
-                </ul>
+    <article>
+        <div>
 
-                <p>Ces boulets du clic ne réalisent souvent pas qu'ils participent à un phénomène plus large : celui de l’économie du contenu inutile.</p>
-            </section>
+            <p>
 
-            <section>
-                <h2>Quelques Exemples de Sites Inutiles</h2>
-                <p>Certains sites inutiles ont acquis une notoriété quasi-cultuelle sur la toile. En voici une petite sélection :</p>
+                Les boulets, qu'ils soient de pierre, de métal ou métaphoriques, ont marqué l'histoire de manière inattendue.
 
-                <ul>
-                    <li><strong>The Useless Web</strong> : Ce site vous redirige vers des plateformes aléatoires, parfois absurdes, comme un site dédié à un poulet virtuel qui suit votre souris.</li>
-                    <li><strong>Pointer Pointer</strong> : Une page où une main pointe précisément l’endroit où se trouve votre curseur, quoi qu'il arrive.</li>
-                    <li><strong>Is It Christmas?</strong> : Un site qui répond simplement "Oui" ou "Non" selon la date.</li>
-                </ul>
+                De simples rochers utilisés dans des batailles antiques aux boulets de canon redoutés des siècles passés,
 
-                <p>Ces créations minimalistes rappellent que l’humour et l’absurdité ont toujours leur place dans le monde numérique.</p>
-            </section>
+                ces objets ont su traverser les âges en laissant derrière eux un poids, au sens propre comme au figuré.
 
-            <section>
-                <h2>Impact et Réflexion sur l’Utilité</h2>
-                <p>Ces sites inutiles posent une question fondamentale : tout doit-il avoir une utilité ? Contrairement aux idées reçues, ils remplissent certains rôles :</p>
+            </p>
 
-                <ul>
-                    <li><strong>Divertissement</strong> : Ils offrent une pause légère dans un monde souvent stressant.</li>
-                    <li><strong>Expérimentation créative</strong> : Ces projets sont souvent réalisés par des développeurs pour tester des concepts simples.</li>
-                    <li><strong>Communauté et viralité</strong> : Ces plateformes rassemblent des utilisateurs autour d’un humour absurde et universel.</li>
-                </ul>
+        </div>
 
-                <p>Ainsi, les boulets qui cliquent sur ces sites contribuent à une forme d’expression culturelle, certes décalée, mais tout aussi légitime.</p>
-            </section>
 
-            <section>
-                <h2>Une Leçon à Retenir</h2>
-                <p>À travers ces clics frénétiques, les boulets du web nous rappellent une chose essentielle : il est parfois bon de lâcher prise et de ne rien attendre d’un site ou d’une expérience. Après tout, l’inutile a aussi sa place dans nos vies, ne serait-ce que pour nous faire sourire.</p>
 
-                <p>Alors, êtes-vous prêt à rejoindre la communauté des "boulets qui cliquent" ? Le voyage est garanti sans retour… mais avec beaucoup de rires.</p>
-            </section>
+        <div>
 
-            <footer>
-                <p>Les boulets qui cliquent ne sont peut-être pas si "inutiles" qu'ils en ont l'air. Leur exploration des profondeurs absurdes du web est un hommage à la créativité et à la légèreté dont nous avons parfois besoin au quotidien.</p>
-            </footer>
-        </article>
-    </main>
-<?php include_once '../includes/footer.php'; ?>
+        <h2>Des Rochers aux Boulets de Guerre</h2>
+
+            <p>
+
+                Dans l'Antiquité, les pierres – ou devrions-nous dire les premiers boulets – étaient des armes de choix.
+
+                Lancés par des frondes, des catapultes ou même à la main, ces projectiles avaient une efficacité redoutable.
+
+                Imaginez-vous sur un champ de bataille, esquivant un rocher volant pesant plusieurs kilos !
+
+            </p>
+
+            <p>
+
+                Les frondeurs grecs étaient des maîtres dans l'art de transformer de simples cailloux en armes létales.
+
+                Les catapultes romaines, quant à elles, étaient capables de propulser des blocs de pierre sur plusieurs centaines de mètres.
+
+                Avec le temps, les boulets ont évolué, devenant des sphères de métal parfaitement calibrées pour les canons.
+
+                Ces derniers étaient des outils stratégiques dans les batailles de siège, transformant littéralement des forteresses en gravats.
+
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+        <h2>Le Boulet Métaphorique : Un Poids Culturel</h2>
+
+            <p>
+
+                Au-delà de leur utilisation militaire, les boulets ont également infiltré notre langage.
+
+                Qui n'a jamais entendu l'expression "traîner un boulet" ?
+
+                Qu'il s'agisse d'une responsabilité pesante ou d'un sentiment d'échec, le concept du boulet a une portée universelle.
+
+            </p>
+
+            <p>
+
+                Dans les arts, les boulets symbolisent souvent l'oppression ou la liberté entravée.
+
+                Citons par exemple les prisonniers enchaînés à des boulets dans les récits historiques ou les films,
+
+                un cliché devenu intemporel.
+
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+        <h2>Un Héritage de Pierre et de Métal</h2>
+
+            <p>
+
+                De nos jours, les boulets continuent de fasciner, qu'ils soient exposés dans des musées ou redécouverts lors de fouilles archéologiques.
+
+                Les passionnés d'histoire et les curieux se rassemblent pour observer ces artefacts lourds de sens,
+
+                se demandant : à quoi pouvait bien penser celui qui a lancé ce projectile il y a des siècles ?
+
+            </p>
+
+            <p>
+
+                Qu'il s'agisse de simples galets des forteresses médiévales, de boulets de canon exposés fièrement dans les musées,
+
+                ou de rochers utilisés comme symboles dans les traditions locales,
+
+                les boulets sont les témoins silencieux des époques révolues, rappelant que même les objets les plus lourds ont une histoire à raconter.
+
+            </p>
+
+        </div>
+
+        <footer>
+
+            <p>
+
+                En fin de compte, qu'ils soient physiques ou métaphoriques, les boulets sont là pour nous rappeler que la vie, parfois,
+
+                peut nous lancer des pierres.
+
+                Mais c'est aussi à nous de décider si nous les esquivons, les utilisons, ou les transformons en quelque chose d'utile.
+
+            </p>
+
+        </footer>
+    </article>
+</main>
+<?php include_once '../includes/footer.php'?>
+
 </body>
 </html>
