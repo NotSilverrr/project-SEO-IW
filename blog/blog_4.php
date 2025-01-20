@@ -9,14 +9,14 @@ include_once '../includes/head.php'?>
         <header class="article-header">
             <h1>Marquons l’histoire</h1>
         </header>
-        <section>
+        <div>
             <p>
                 Les boulets, qu'ils soient de pierre, de métal ou métaphoriques, ont marqué l'histoire de manière inattendue.
                 De simples rochers utilisés dans des batailles antiques aux boulets de canon redoutés des siècles passés,
                 ces objets ont su traverser les âges en laissant derrière eux un poids, au sens propre comme au figuré.
             </p>
-        </section>
-        <section>
+        </div>
+        <div>
             <h2>Des Rochers aux Boulets de Guerre</h2>
             <p>
                 Dans l'Antiquité, les pierres – ou devrions-nous dire les premiers boulets – étaient des armes de choix.
@@ -29,8 +29,8 @@ include_once '../includes/head.php'?>
                 Avec le temps, les boulets ont évolué, devenant des sphères de métal parfaitement calibrées pour les canons.
                 Ces derniers étaient des outils stratégiques dans les batailles de siège, transformant littéralement des forteresses en gravats.
             </p>
-        </section>
-        <section>
+        </div>
+        <div>
             <h2>Le Boulet Métaphorique : Un Poids Culturel</h2>
             <p>
                 Au-delà de leur utilisation militaire, les boulets ont également infiltré notre langage.
@@ -42,8 +42,8 @@ include_once '../includes/head.php'?>
                 Citons par exemple les prisonniers enchaînés à des boulets dans les récits historiques ou les films,
                 un cliché devenu intemporel.
             </p>
-        </section>
-        <section>
+        </div>
+        <div>
             <h2>Un Héritage de Pierre et de Métal</h2>
             <p>
                 De nos jours, les boulets continuent de fasciner, qu'ils soient exposés dans des musées ou redécouverts lors de fouilles archéologiques.
@@ -55,7 +55,7 @@ include_once '../includes/head.php'?>
                 ou de rochers utilisés comme symboles dans les traditions locales,
                 les boulets sont les témoins silencieux des époques révolues, rappelant que même les objets les plus lourds ont une histoire à raconter.
             </p>
-        </section>
+        </div>
         <footer>
             <p>
                 En fin de compte, qu'ils soient physiques ou métaphoriques, les boulets sont là pour nous rappeler que la vie, parfois,

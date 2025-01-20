@@ -10,15 +10,15 @@ include_once '../includes/head.php'?>
         <header class="article-header">
             <h1>Les Boulets : Héritage de Puissance et de Mystères</h1>
         </header>
-        <section>
+        <div>
             <p>
                 Depuis les origines des civilisations, les boulets ont été au cœur de récits fascinants. Qu'ils 
                 soient façonnés par des forces naturelles ou par l'ingéniosité humaine, ces sphères imposantes 
                 témoignent de leur poids historique et symbolique. Du simple galet au boulet de canon, chaque pierre 
                 raconte une histoire, et chaque impact laisse une marque indélébile.
             </p>
-        </section>
-        <section>
+        </div>
+        <div>
             <h2>Les Boulets Naturels, Trésors de la Terre</h2>
             <p>
                 Dans les endroits les plus reculés de la planète, des rochers sphériques émergent des sols ou des 
@@ -31,8 +31,8 @@ include_once '../includes/head.php'?>
                 strie, chaque imperfection, raconte une érosion, un dépôt ou un bouleversement. Elles sont autant de 
                 fenêtres ouvertes sur les forces profondes qui sculptent notre planète.
             </p>
-        </section>
-        <section>
+        </div>
+        <div>
             <h2>Les Boulets Forgés, Outils de Conflits</h2>
             <p>
                 Dans les conflits anciens et modernes, les boulets ont représenté la force brute et la précision 
@@ -45,7 +45,7 @@ include_once '../includes/head.php'?>
                 Leur utilisation dans les batailles navales symbolisait une domination technologique, faisant des 
                 boulets un outil de suprématie.
             </p>
-        </section>
+        </div>
         <footer>
             <p>
                 Qu'ils soient le fruit des forces géologiques ou forgés dans les flammes des forges, 
