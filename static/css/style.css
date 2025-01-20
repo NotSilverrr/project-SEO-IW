@@ -729,3 +729,53 @@ label {
   background-color: var(--main-color-dark);
   }
 }
+
+
+/*
+
+  BLOG LONG
+
+*/
+
+
+.article-content {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.article-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  height: 3rem;
+  padding: 1rem;
+}
+
+.article-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.article-section {
+  margin-bottom: 30px;
+}
+
+.article-subtitle {
+  font-size: 1.8em;
+  margin-top: 20px;
+  color: #0055aa;
+}
+
+.article-text {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.article-footer {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}

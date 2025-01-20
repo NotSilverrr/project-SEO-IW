@@ -4,10 +4,9 @@ $description = "Toutes les réponses a vos questions sur nos Gigaboulet";
 include_once '../includes/head.php'?>
 <body>
 <?php include_once '../includes/header.php'?>
-
-<main class="container">
-    <article>
-        <header>
+    <main class="container">
+    <article class="article-content">
+        <header class="article-header">
             <h1>Marquons l’histoire</h1>
         </header>
         <section>
@@ -65,7 +64,7 @@ include_once '../includes/head.php'?>
             </p>
         </footer>
     </article>
-</main>
+    </main>
 
 <?php include_once '../includes/footer.php'?>
 
