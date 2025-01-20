@@ -13,6 +13,7 @@ include_once 'includes/head.php';?>
     <a href="/blog/gigaboulet-sous-marin" class="article-link">Les boulets sous marins</a>
     <a href="/blog/gigaboulet-histoire" class="article-link">Les boulets qui ont marqué l'histoire</a>
     <a href="/blog/gigaboulet-heritage" class="article-link">L'héritage des boulets</a>
+    <a href="/blog/gigaboulet-voyage" class="article-link">Des voyages avec Gigaboulet</a>
 </div>
 
 
