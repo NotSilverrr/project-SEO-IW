@@ -10,7 +10,7 @@
     <meta name="description" content="<?= $description?>">
     <script type="application/ld+json">
     {
-    "@context": "https://gigaboulet.shop",
+    "@context": "https://schema.org/",
     "@type": "LocalBusiness",
     "name": "Gigaboulet",
     "image": "https://gigaboulet.shop/static/img/gigaboulet_rond.ico",
