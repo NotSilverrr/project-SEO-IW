@@ -58,8 +58,8 @@ include "includes/head.php"
                     </a>
                 </div>
                 <div class="images">
-                    <img src="static/img/pierre_yoga.webp" alt="Plusieurs gigaboulets empilés les uns sur les autres, avec un arrière-plan flou.">
-                    <img src="static/img/pierre_main.webp" alt="Gigaboulets de plusieurs couleurs dans les mains d'une dame.">
+                    <img src="static/img/pierre_yoga.webp" alt="Plusieurs gigaboulets empilés les uns sur les autres, avec un arrière-plan flou." loading="lazy">
+                    <img src="static/img/pierre_main.webp" alt="Gigaboulets de plusieurs couleurs dans les mains d'une dame." loading="lazy">
                 </div>
             </div>
             
@@ -71,7 +71,7 @@ include "includes/head.php"
                 <div class="grid">
                     <a href="/magasin">
                         <article>
-                            <img src="static/img/pierre_mystique.webp" alt="Gigaboulet crytalisé violet sur une surface en bois.">
+                            <img src="static/img/pierre_mystique.webp" alt="Gigaboulet crytalisé violet sur une surface en bois." loading="lazy">
                             <div class="text">
                                 <h1><strong>GigaBoulet</strong> Mystique</h1>
                                 <p>Un caillou exceptionnel, idéal pour les collectionneurs de pierres rares. Couleurs captivantes et textures naturelles.</p>
@@ -80,7 +80,7 @@ include "includes/head.php"
                     </a>
                     <a href="/magasin">
                         <article>
-                            <img src="static/img/pierre_decoration.webp" alt="Trois gigaboulets parfaitement ronds de tailles différentes, posés sur l'herbe.">
+                            <img src="static/img/pierre_decoration.webp" alt="Trois gigaboulets parfaitement ronds de tailles différentes, posés sur l'herbe." loading="lazy">
                             <div class="text">
                                 <h1><strong>GigaBoulet</strong> de Décoration</h1>
                                 <p>Ajoutez une touche naturelle à votre espace avec nos <strong>GigaBoulets</strong> décoratifs. Parfait pour les amateurs de design minéral.</p>
@@ -90,7 +90,7 @@ include "includes/head.php"
                     </a>
                     <a href="/magasin">
                         <article>
-                            <img src="static/img/pierre_collection.webp" alt="Plusieurs gigaboulets de couleurs et de tailles différentes sur fond blanc.">
+                            <img src="static/img/pierre_collection.webp" alt="Plusieurs gigaboulets de couleurs et de tailles différentes sur fond blanc." loading="lazy">
                             <div class="text">
                                 <h1><strong>GigaBoulet</strong> de Collection</h1>
                                 <p>Pour les passionnés de minéralogie, découvrez des <strong>GigaBoulets</strong> uniques, sélectionnés pour leur beauté et leur rareté.</p>
