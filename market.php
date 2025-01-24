@@ -26,8 +26,8 @@ include "includes/head.php"
         <section class="product-grid">
             <h2>Nos Produits</h2>
             <div class="product-card">
-                <img class= shop_img src="static/img/pierre_decoration.webp" alt="Boulets décoratifs">
-                <img class= shop_img src="static/img/boulet decoratif.webp" alt="Boulets décoratifs">
+                <img class= shop_img src="static/img/pierre_decoration.webp" alt="Boulets décoratifs" loading="lazy">
+                <img class= shop_img src="static/img/boulet decoratif.webp" alt="Boulets décoratifs" loading="lazy">
                 <h3>Boulets Décoratifs</h3>
                 <p>Idéal pour vos jardins ou aquariums.</p>
                 <p class="price">€10.00</p>
@@ -35,8 +35,8 @@ include "includes/head.php"
                 <a href="/histoire" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
-            <img class= shop_img src="static/img/boulets naturels 2.webp" alt="Boulets naturels">
-            <img class= shop_img src="static/img/boulets naturels.webp" alt="Boulets naturels">
+            <img class= shop_img src="static/img/boulets naturels 2.webp" alt="Boulets naturels" loading="lazy">
+            <img class= shop_img src="static/img/boulets naturels.webp" alt="Boulets naturels" loading="lazy">
             <h3>Boulets Naturels</h3>
                 <p>Parfaits pour les projets de bricolage.</p>
                 <p class="price">€8.00</p>
@@ -44,8 +44,8 @@ include "includes/head.php"
                 <a href="/histoire" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
-            <img class= shop_img src="static/img/boulets jardinnage 2.webp" alt="Boulets pour jardinage">
-            <img class= shop_img src="static/img/boulets jardinnage.webp" alt="Boulets pour jardinage">
+            <img class= shop_img src="static/img/boulets jardinnage 2.webp" alt="Boulets pour jardinage" loading="lazy">
+            <img class= shop_img src="static/img/boulets jardinnage.webp" alt="Boulets pour jardinage" loading="lazy">
                 <h3>Boulets pour Jardinage</h3>
                 <p>Améliorez le drainage de vos plantes.</p>
                 <p class="price">€12.00</p>
@@ -53,8 +53,8 @@ include "includes/head.php"
                 <a href="/histoire" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
-            <img class= shop_img src="static/img/boulet prisonnier 2.webp" alt="Boulets de prisonnier">
-            <img class= shop_img src="static/img/boulet prisonnier.webp" alt="Boulets de prisonnier">
+            <img class= shop_img src="static/img/boulet prisonnier 2.webp" alt="Boulets de prisonnier" loading="lazy">
+            <img class= shop_img src="static/img/boulet prisonnier.webp" alt="Boulets de prisonnier" loading="lazy">
             <h3>Boulets de Prisonnier</h3>
                 <p>Accessoire historique et décoratif.</p>
                 <p class="price">€15.00</p>
@@ -62,8 +62,8 @@ include "includes/head.php"
                 <a href="/histoire" class="acheter">En savoir plus</a>
             </div>
             <div class="product-card">
-            <img class= shop_img src="static/img/boulets de poche.webp" alt="Boulets de poche">
-            <img class= shop_img src="static/img/boulets de poche2.webp" alt="Boulets de poche">    
+            <img class= shop_img src="static/img/boulets de poche.webp" alt="Boulets de poche" loading="lazy">
+            <img class= shop_img src="static/img/boulets de poche2.webp" alt="Boulets de poche" loading="lazy">    
             <h3>Boulets de Poche</h3>
                 <p>Pratiques et amusants à collectionner.</p>
                 <p class="price">€5.00</p>
