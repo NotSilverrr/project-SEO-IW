@@ -744,6 +744,10 @@ label {
   color: #333;
 }
 
+.article-content a{
+  color: darkblue;
+}
+
 .article-header {
   text-align: center;
   margin-top: 20px;
