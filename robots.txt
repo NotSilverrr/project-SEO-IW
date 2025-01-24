@@ -1,2 +1,2 @@
 user-agent: *
-Sitemap: sitemap.xml
+Sitemap: https://gigaboulet.shop/sitemap.xml
